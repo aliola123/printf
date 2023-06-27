@@ -20,4 +20,5 @@ int _putchar(char c);
 int _print_char(va_list print_all);
 int _print_string(va_list print_all);
 int _printf(const char *format, ...);
+int _print_num(va_list print_all);
 #endif
