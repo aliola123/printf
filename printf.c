@@ -5,7 +5,7 @@
  * @format: pointer to a constant array of strings
  * Return: number of arguments printed
  */
-int printf(const char *format, ...)
+int _printf(const char *format, ...)
 {
 	va_list print_all;
 	int i = 0;
