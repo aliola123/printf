@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * printf - function that prints anything
+ * _printf - function that prints anything
  * @format: pointer to a constant array of strings
  * Return: number of arguments printed
  */
