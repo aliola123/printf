@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _printf - function that prints anything
+ * printf - function that prints anything
  * @format: pointer to a constant array of strings
  * Return: number of arguments printed
  */
@@ -38,6 +38,18 @@ int _printf(const char *format, ...)
 			else if (format[i + 1] == 's')
 			{
 				_print_string(print_all);
+				arg_count++;
+				i++;
+			}
+			else if (format[i + 1] == 'i')
+			{
+				_print_int(print_all);
+				arg_count++;
+				i++;
+			}
+			else if (format[i + 1] == 'd')
+			{
+				_print_dec(print_all);
 				arg_count++;
 				i++;
 			}
